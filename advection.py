@@ -1,5 +1,5 @@
 """
-Advection
+Advection equation solver comparing FTCS and Lax-Friedrichs methods
 
 @author: Luca D'Angelo
 Feb. 25, 2020
