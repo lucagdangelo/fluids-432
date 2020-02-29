@@ -1,5 +1,7 @@
 """
-Advection-diffusion equation solver.
+Advection-diffusion equation solver using
+the LF method for the advection term and
+the implicit method for the diffusion term.
 
 @author: Luca D'Angelo
 Feb. 28, 2020
@@ -52,7 +54,7 @@ plot2, = plt.plot(x, f2, color='purple', marker='o')
 plt.title('Advection-Diffusion D=0.05')
 plt.xlabel('Position')
 plt.xlim([0, Nspace])
-#plt.ylim([-0.1, 1])
+plt.ylim([-0.1, 1])
 
 fig1.canvas.draw()
 
