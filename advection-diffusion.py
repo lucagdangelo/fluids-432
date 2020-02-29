@@ -76,5 +76,6 @@ for t in range(0, Ntime):
     # update plot for D2
     plot2.set_ydata(f2)
 
+    # update canvas
     fig1.canvas.draw()
     plt.pause(0.001)
